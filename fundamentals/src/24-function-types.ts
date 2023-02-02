@@ -9,7 +9,7 @@ type CreateCourse = (title:string, subtitle:string, lessonsCount:number) => Cour
 
 type OnCourseCreated = (course: Course) => void;
 
-const createCourse = (title:string, subtitle:string,
+const createCourse1 = (title:string, subtitle:string,
                       lessonsCount:number, callback: OnCourseCreated) => {
 
     console.log(` Creating course with Title: ${title}, 

@@ -7,5 +7,5 @@ interface HasTitle {
     description:string;
 }
 
-type Course = HasId & HasTitle;
+type Course3 = HasId & HasTitle;
 
